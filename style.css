@@ -1,0 +1,124 @@
+/* style.css */
+body {
+  font-family: Chivo;
+  margin: 0
+  color: #7c3668;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  color: #380438;
+  font-family: Chivo;
+}
+
+
+a {
+  color: #bdccff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .2s;
+}
+
+a:hover {
+  color: #7c3668;
+}
+
+p {
+  color: #7c3668;
+  opacity: .7;
+}
+
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+/* Red */
+.danger {
+    color: #bdccff;
+}
+
+.danger:hover {
+    background: #7c3668;
+    color: white;
+}
+
+.button-blue {
+  background-color: #1A48E3;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
+
+
+.footer {
+  background: #7c3668;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+}
+
